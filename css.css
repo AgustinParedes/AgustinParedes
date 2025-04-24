@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #9c2d2d;
+    }
+
+.contenedor-duque {
+    display: flex; /* Utiliza flexbox para el diseño */ 
+    flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    align-items: center; /* Centra los elementos en el eje horizontal */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 30px; /* Espacio interno del contenedor */
+    background-color: rgb(255, 0, 0);
+    }
+
+.bienvenidos {
+    background-color: aquamarine;
+    font-size: 15px; 
+    color: #221c1c;
+    margin: 30px;
+    border: #000000 solid 1px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.descripcion-duque table {
+    background-color: rgb(255, 123, 0);
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+        width: 400px;
+}
+
+.descripcion-duque td {
+    padding: 10px;
+    border: 1px solid #e7e3e3;
+}
+
+.fotos-duque img {
+    margin: 10px; 
+    border-radius: 20px;
+}
+
+.parrafo-duque {
+    background-color: aquamarine;
+    font-size: 18px;
+    color: #221c1c;
+    margin: 20px;
+    border: #000000 solid 1px;
+    border-radius: 20px;
+}
+
+.gracias-duque {
+    background-color: rgb(255, 0, 0);
+    padding: 15px;
+    border-radius: 8px;
+    width: 60%; /* Ancho del contenedor */ 
+    max-width: 600px; 
+    }

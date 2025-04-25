@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil de Luna</title>
+    <link rel="stylesheet" href="css.css"> <!-- Link a la hoja de estilos CSS --> 
 </head>
+
 <body>
-    <div>
-        <div>
+    <div class="contenedor-luna"> 
+        <div class="bienvenidos">
             <h1>¡Bienvenidos a la página de Luna!</h1>
             <h2>↓ Aquí hablaremos sobre Luna ↓</h2>
         </div>
     
-        <table style="background-color: aqua;">
+    <div class="descripcion-luna"> 
+        <table>
             <tr>
                 <td>Nombre: Luna</td>
             </tr>
@@ -26,23 +29,34 @@
                 <td>Descripción: Es una perrita que se hace la tímida.</td>
             </tr>
         </table>
-    
-        <footer>
-            <span class="fotos-luna">
-                <h5>
-                    A continuación, se muestran fotos de Luna:
-                </h5>
-                <img src="mascotas/luna1.jpg" alt="Luna" width="450" height="450">
-                <!-- <img src="luna.jpg" alt="Luna" width="200" height="200"><br> -->
-            </span>
-        </footer>
-    
-        <span class="texto-luna">
-            <p>
-                Luna es una caniche que llegó a casa por esas cosas de la vida, se quedó primero por la comida y despueés por el amor quiero imaginar jaja, es bastante pícara, finge ser tímida pero tiene comportamientos de una perra callejera como ladrar motos, torear a gente que pasa por la calle, auyentar a perros mas pequeños que ella, sin ánimos de lastimar, solo hacer ruido y molestar. Pero cuando te le acercas o la retas pareciera que le rompiste el corazón con la cara que pone, pero no deja de ser TERRIBLE :D
-            </p>
-        </span>
     </div>
-    
+
+
+            <div class="fotos-luna">
+                <h3>
+                    A continuación, se muestran fotos de Luna:
+                </h3>
+                <img src="mascotas/luna1.jpg" alt="Luna" width="300" height="400">
+                <!-- <img src="luna.jpg" alt="Luna" width="200" height="200"><br> -->
+            </div>
+
+
+        <div class="parrafo-luna">
+            <p>
+                Luna es una caniche que llegó a casa por esas cosas de la vida, 
+                se quedó primero por la comida y despueés por el amor quiero imaginar jaja, 
+                es bastante pícara, finge ser tímida pero tiene comportamientos de una perra callejera 
+                como ladrar motos, torear a gente que pasa por la calle, auyentar a perros mas pequeños 
+                que ella, sin ánimos de lastimar, solo hacer ruido y molestar. Pero cuando te le acercas 
+                o la retas pareciera que le rompiste el corazón con la cara que pone, pero no deja de 
+                ser TERRIBLE :D
+            </p>
+        </div>
+
+        <div class="gracias-luna" style="background-color: lightblue;">
+            <h4><a href="http://127.0.0.1:5500/yo.html" target="_self">¡Gracias por visitar la página de Luna!</a></h4>
+        </div>
+    </div>
+
 </body>
 </html>

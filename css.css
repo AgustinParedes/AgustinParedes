@@ -2,22 +2,24 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #9c2d2d;
+    /* background-color: #9c2d2d; */
     }
 
 .contenedor-duque,
 .contenedor-luna,
-.contenedor-lola {
+.contenedor-lola,
+.contenedor-gata,
+.contenedor-yo {
     display: flex; /* Utiliza flexbox para el diseño */ 
     flex-direction: column; /* Cambia la dirección de los elementos a columna */
     align-items: center; /* Centra los elementos en el eje horizontal */
     gap: 20px; /* Espacio entre los elementos */
     padding: 30px; /* Espacio interno del contenedor */
-    background-color: rgb(59, 190, 219);
+    background-color: rgb(57, 46, 117);
     }
 
 .bienvenidos {
-    background-color: aquamarine;
+    background-color: rgb(0, 144, 41);
     font-size: 15px; 
     color: #221c1c;
     margin: 30px;
@@ -44,11 +46,25 @@ body {
     width: 400px;
 }
 
+.descripcion-gata table {
+    background-color: rgb(255, 0, 0);
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+    width: 400px;
+}
+
+.descripcion-yo table {
+    background-color: rgb(255, 0, 0);
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+    width: 400px;
+}
+
 .descripcion-duque td,
 .descripcion-luna td,
-.descripcion-lola td {
+.descripcion-lola td,
+.descripcion-gata td,
+.descripcion-yo td {
     padding: 10px;
-    border: 1px solid #e7e3e3;
+    border: 1px solid #e2a2a2;
 }
 
 .fotos-duque img {
@@ -67,6 +83,11 @@ body {
     
 }
 
+.fotos.gata img {
+    margin: 10px; 
+    border-radius: 20px;
+}
+
 h3 {
     color: #b60202;
     font-size: 20px;
@@ -78,8 +99,9 @@ h3 {
 
 .parrafo-duque,
 .parrafo-luna,
-.parrafo-lola {
-    background-color: aquamarine;
+.parrafo-lola,
+.parrafo-gata {
+    background-color: rgb(9, 143, 98);
     font-size: 18px;
     color: #221c1c;
     margin: 40px;
@@ -91,10 +113,28 @@ h3 {
 
 .gracias-duque,
 .gracias-luna,
-.gracias-lola {
+.gracias-lola,
+.gracias-gata {
     background-color: rgb(255, 0, 0);
     padding: 15px;
     border-radius: 8px;
     width: 60%; /* Ancho del contenedor */ 
     max-width: 600px; 
     }
+
+
+.fotos-yo {
+    background-color: brown;
+    font-size: 22px;
+    color: #221c1c;
+    margin: 20px;
+    border: #000000 solid 1px;
+    border-radius: 20px;
+    width: 50%; /* Ancho del contenedor */
+    padding: 10px; /* Espacio interno del contenedor */
+}
+
+.fotos-yo img {
+    margin: 10px; 
+    border-radius: 20px;
+}

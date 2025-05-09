@@ -1,61 +1,75 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    /* background-color: #9c2d2d; */
-    }
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #9c2d2d;
+}
+
+li {
+  list-style-position: inside;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+a {
+  display: inline;
+  font-size: 18px;
+}
 
 .contenedor-duque,
 .contenedor-luna,
 .contenedor-lola,
 .contenedor-gata,
 .contenedor-yo {
-    display: flex; /* Utiliza flexbox para el diseño */ 
-    flex-direction: column; /* Cambia la dirección de los elementos a columna */
-    align-items: center; /* Centra los elementos en el eje horizontal */
-    gap: 20px; /* Espacio entre los elementos */
-    padding: 30px; /* Espacio interno del contenedor */
-    background-color: rgb(57, 46, 117);
-    }
+  width: 90%;
+  max-width: 1000px;
+  min-width: unset;
+  margin: auto;
+  display: flex; /* Utiliza flexbox para el diseño */
+  flex-direction: column; /* Cambia la dirección de los elementos a columna */
+  align-items: center; /* Centra los elementos en el eje horizontal */
+  gap: 20px; /* Espacio entre los elementos */
+  padding: 30px; /* Espacio interno del contenedor */
+  background-color: rgb(57, 46, 117);
+}
 
 .bienvenidos {
-    background-color: rgb(0, 144, 41);
-    font-size: 15px; 
-    color: #221c1c;
-    margin: 30px;
-    border: #000000 solid 1px;
-    border-radius: 20px;
-    padding: 25px;
+  background-color: rgb(0, 144, 41);
+  font-size: 15px;
+  color: #221c1c;
+  margin: 30px;
+  border: #000000 solid 1px;
+  border-radius: 20px;
+  padding: 25px;
 }
 
 .descripcion-duque table {
-    background-color: rgb(255, 123, 0);
-    border-collapse: collapse; /* Colapsa los bordes de la tabla */
-    width: 400px;
+  background-color: rgb(255, 123, 0);
+  border-collapse: collapse; /* Colapsa los bordes de la tabla */
+  width: 400px;
 }
 
 .descripcion-luna table {
-    background-color: rgb(247, 74, 140);
-    border-collapse: collapse; /* Colapsa los bordes de la tabla */
-        width: 400px;
+  background-color: rgb(247, 74, 140);
+  border-collapse: collapse; /* Colapsa los bordes de la tabla */
+  width: 400px;
 }
 
 .descripcion-lola table {
-    background-color: rgb(200, 0, 204);
-    border-collapse: collapse; /* Colapsa los bordes de la tabla */
-    width: 400px;
+  background-color: rgb(200, 0, 204);
+  border-collapse: collapse; /* Colapsa los bordes de la tabla */
+  width: 400px;
 }
 
 .descripcion-gata table {
-    background-color: rgb(255, 0, 0);
-    border-collapse: collapse; /* Colapsa los bordes de la tabla */
-    width: 400px;
+  background-color: rgb(255, 0, 0);
+  border-collapse: collapse; /* Colapsa los bordes de la tabla */
+  width: 400px;
 }
 
 .descripcion-yo table {
-    background-color: rgb(255, 0, 0);
-    border-collapse: collapse; /* Colapsa los bordes de la tabla */
-    width: 400px;
+  background-color: rgb(0, 119, 255);
+  border-collapse: collapse; /* Colapsa los bordes de la tabla */
+  width: 400px;
 }
 
 .descripcion-duque td,
@@ -63,78 +77,138 @@ body {
 .descripcion-lola td,
 .descripcion-gata td,
 .descripcion-yo td {
-    padding: 10px;
-    border: 1px solid #e2a2a2;
+  padding: 10px;
+  border: 1px solid #e2a2a2;
+  width: 100%;
+  max-width: 400px;
 }
 
 .fotos-duque img {
-    margin: 10px; 
-    border-radius: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 .fotos-luna img {
-    margin: 10px; 
-    border-radius: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
-.fotos-lola img{
-    margin: 10px; 
-    border-radius: 20px;
-    
+.fotos-lola img {
+  margin: 10px;
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
-.fotos.gata img {
-    margin: 10px; 
-    border-radius: 20px;
+.fotos-gata img {
+  margin: 10px;
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 h3 {
-    color: #b60202;
-    font-size: 20px;
-    margin: 10px;
-    padding: 10px;
-    background-color: rgb(205, 75, 75);
-    border-radius: 20px;
+  color: #b60202;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(205, 75, 75);
+  border-radius: 20px;
 }
 
 .parrafo-duque,
 .parrafo-luna,
 .parrafo-lola,
 .parrafo-gata {
-    background-color: rgb(9, 143, 98);
-    font-size: 18px;
-    color: #221c1c;
-    margin: 40px;
-    border: #000000 solid 1px;
-    border-radius: 20px;
-    width: 70%; /* Ancho del contenedor */
-    padding: 20px; /* Espacio interno del contenedor */
+  background-color: rgb(9, 143, 98);
+  font-size: 18px;
+  color: #221c1c;
+  margin: 40px;
+  border: #000000 solid 1px;
+  border-radius: 20px;
+  width: 90%; /* Ancho del contenedor */
+  max-width: 600px;
+  padding: 20px; /* Espacio interno del contenedor */
 }
 
 .gracias-duque,
 .gracias-luna,
 .gracias-lola,
 .gracias-gata {
-    background-color: rgb(255, 0, 0);
-    padding: 15px;
-    border-radius: 8px;
-    width: 60%; /* Ancho del contenedor */ 
-    max-width: 600px; 
-    }
-
+  background-color: rgb(255, 0, 0);
+  padding: 15px;
+  border-radius: 8px;
+  width: 90%; /* Ancho del contenedor */
+  max-width: 600px;
+}
 
 .fotos-yo {
-    background-color: brown;
-    font-size: 22px;
-    color: #221c1c;
-    margin: 20px;
-    border: #000000 solid 1px;
-    border-radius: 20px;
-    width: 50%; /* Ancho del contenedor */
-    padding: 10px; /* Espacio interno del contenedor */
+  background-color: brown;
+  font-size: 22px;
+  color: #221c1c;
+  margin: 20px;
+  border: #000000 solid 1px;
+  border-radius: 20px;
+  width: 90%; /* Ancho del contenedor */
+  max-width: 600px;
+  padding: 10px; /* Espacio interno del contenedor */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .fotos-yo img {
-    margin: 10px; 
-    border-radius: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  /* borrar abajo */
+  width: 100%;
+  box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
+}
+
+li {
+  list-style-type: disc;
+  margin-bottom: 30px;
+  text-align: center; /* Esto centra contenido como el texto y las imágenes */
+}
+
+li img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
+  display: block;
+  margin: 0 auto; /* Centra horizontalmente la imagen si text-align no basta */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .bienvenidos {
+    font-size: 13px;
+    padding: 15px;
+  }
+
+  h3 {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .parrafo-duque,
+  .parrafo-luna,
+  .parrafo-lola,
+  .parrafo-gata {
+    font-size: 16px;
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .fotos-yo {
+    font-size: 18px;
+  }
 }
